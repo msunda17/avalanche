@@ -1,0 +1,108 @@
+body {
+  background-color: #f4f4f9;
+  color: #333;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+.App {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.prompt-form {
+  margin-bottom: 30px;
+}
+
+.prompt-form label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.prompt-form textarea {
+  width: 97.5%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: none; /* Disables resizing of the textarea */
+}
+
+.prompt-form button {
+  background-color: #0056b3;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.prompt-form button:hover {
+  background-color: #003580;
+}
+
+.results {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.image-display {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+}
+
+.image-display img {
+  width: fill;
+  height: auto;
+  border-radius: 4px;
+}
+
+.image-frame {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+.token-list {
+  min-width: 25%;
+  background: #fafafa;
+  padding: 15px;
+  border-radius: 4px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  list-style: none;
+}
+
+.token-list li {
+  font-size: 16px;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: space-between;
+  cursor: move;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.token-list button {
+  background-color: #0056b3;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
